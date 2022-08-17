@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar img {
+  /* background-color: aqua; */
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+body {
+  background-color: #2b2922;
+  color: #ffffff;
+}
+.bottom-image img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 565px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-left: 35rem;
+  margin-top: -3rem;
+  margin-bottom: 5rem;
+}
+.list .list-item {
+  margin-right: 60px;
+  font-size: 14px;
+  font-family: "RedRose", sans-serif;
+  font-weight: 300;
+  color: #76746f;
+  transition: 0.3s;
+}
+.button-small {
+  margin-left: 78rem;
+  border-radius: 10px;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: transparent;
+  color: #a08f36;
+  border: 1px solid #a08f36;
+}
+.navbar div:nth-child(3) {
+  margin-top: -6.6rem;
+  margin-bottom: 10rem;
+}
+.top-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0px;
+}
+.top-content .hero-heading {
+  width: 15ch;
+  font-size: 55px;
+  font-family: "RedRose", sans-serif;
+  font-weight: 700;
+  /* color: #ffffff; */
+  line-height: 72px;
+}
+.top-content .sub-heading {
+  width: 37ch;
+  font-size: 16px;
+  font-family: "RedRose", sans-serif;
+  font-weight: 400;
+  color: #adaaa2;
+  line-height: 22px;
+}
+.bottom-image img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 565px;
+}
+.footer-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 69px;
+}
+.footer-button .bottom-button {
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 8px 13px;
+  font-size: 16px;
+  font-family: "RedRose", sans-serif;
+  font-weight: 500;
+  background-color: #535147;
+}
+.footer-button .previous-button,
+.footer-button .next-button {
+  padding: 20px 16px;
+  background-color: #535147;
+}
+.footer-button .next-button {
+  background-color: #a08f36;
+}
+.footer-button .previous-button .bottom-button-01 {
+  background-color: transparent;
+  color: #a08f36;
+  border: 1px solid;
+  margin: 0px 10px;
+  transition: 0.3s;
+}
+.footer-button .next-button .bottom-button-02 {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: 0.3s;
+}
+.footer-button .previous-button .bottom-button-01:hover {
+  color: #ffffff;
+}
+.footer-button .next-button .bottom-button-02:hover {
+  color: #535147;
+  border-color: #535147;
+}
